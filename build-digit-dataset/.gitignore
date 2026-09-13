@@ -1,0 +1,20 @@
+# Secrets -- never commit these
+.streamlit/secrets.toml
+
+# Google OAuth client files downloaded from Cloud Console. These contain the
+# client_secret, so match them by pattern rather than by one exact filename.
+client_secret_*.json
+*.apps.googleusercontent.com.json
+
+# Service-account keys
+*-service-account*.json
+gcp-*.json
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
